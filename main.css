@@ -3,3 +3,26 @@ div {
   border: 1px solid aquamarine;
   padding: 30px;
 }
+
+h1 {
+	margin-right: 10px;
+}
+
+label {
+	font-size: 30px;
+}
+
+label:hover {
+	cursor: pointer;
+	color: #e3f453;
+}
+
+
+#show-skills,#skills{display:none;}
+#show-skills:checked~#skills{display:block;}
+
+#show-achieve,#achievements{display:none;}
+#show-achieve:checked~#achievements{display:block;}
+
+#show-contact,#address{display:none;}
+#show-contact:checked~#address{display:block;}
