@@ -1,65 +1,69 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>About Me</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-  <meta name="About Me" description="This is the Sally the Student's Profile Page">
-</head>
-<body>
+    <head>
+        <title>Aimlx.tech</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="images/title_logo.png" type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+      </head>
+    <body>
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg navbar-light border-bottom p-0">
+                    <a class="navbar-brand m-2 pl-3" href="#">
+                        <svg style="margin-right: none;" width="85" viewBox="0 0 73 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon points="0.785 8.063 8.785 8.063 8.785 0.063 0.785 0.063"></polygon>
+                            <polygon style="fill: #8e24aa;" points="0.785 38 8.785 38 8.785 13 0.785 13"></polygon>
+                            <polygon style="fill: #8e24aa;" points="26.785 26.063 34.785 26.063 34.785 0.063 26.785 0.063"></polygon>
+                            <polygon points="13.785 38.063 21.785 38.063 21.785 0.063 13.785 0.063"></polygon>
+                            <polygon points="39.785 38.063 47.785 38.063 47.785 0.063 39.785 0.063"></polygon>
+                        </svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mx-auto" id="navbar">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                      <!-- SEARCH BOX -->
+                      <form class="form-inline my-2 my-lg-0">
+                        <div class="search-div">
+                        <svg class="search-box" width="26" viewBox="0 0 23 22">
+                            <g stroke="currentColor" stroke-width="1.5" fill="none">
+                                <circle cx="9.20757329" cy="8.99160695" r="8.50646589"></circle>
+                                <path d="M14.8522097,14.6362434 L20.7140392,20.4980728"></path>
+                            </g>
+                        </svg>
+                        <svg class="d-none" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                            <path fill="#744B42" stroke="currentColor" stroke-width="1.5" d="M1 1L17 17M1 17L17 1"></path>
+                        </svg>
+                      </div>
+                      </div>
+                      </form>
+            </nav>
 
-  <div>
-
-  <header>
-    <h1> Sally Student </h1>
-    <h3> I'm an aspiring full stack web developer. I love cats, coding, and crocheting.</h3>
-  </header>
-
-  <main>
-    <input id="show-skills" type=checkbox>
-    <label for="show-skills">Skills</label><br/>
-    <section id="skills">
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-      </ul>
-    </section>
-
-    <input id="show-achieve" type=checkbox>
-    <label for="show-achieve">Achievements</label><br/>
-    <section id="achievements">
-      <ul>
-        <li>Google Code Jam Champion 2020</li>
-        <li>ICPC World Champion 2020</li>
-        <li>Created My Beautiful Pretty Blog Website</li>
-      </ul>
-    </section>
-
-    <input id="show-contact" type=checkbox>
-    <label for="show-contact">Contact Me</label><br/>
-    <address id="address">
-      <p>Twitter: <a href="https://twitter.com/sallyStudent">@sallyStudent</a></p>
-      <p>LinkedIn: <a href="linkedin.com/sally">@sally</a></p>
-    </address>
-  </main>
-
-	<!-- <div>
-  <h1>Sally Student</h1>
-  <p>I'm an aspiring full stack web developer. I love cats, coding, and crocheting</p>
-
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>jQuery</li>
-  </ul>
-
-  <h2>Contact Info</h2>
-  <p>Twitter: <a href="https://twitter.com/sallyStudent">@sallyStudent</a></p>
-</div> -->
-  </div>
-
-</body>
+            <div style="width: 100%;">
+                <div class="search-frame">
+                  
+                </div>
+                <div class="blog-frame">
+                  <div class="post">
+                    <img class="post-pic" src="images/my_pic.JPG">
+                    <h2 class="post-head">About Me</h2>
+                  </div>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+      </body>
 </html>
