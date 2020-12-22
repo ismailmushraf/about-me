@@ -3,13 +3,7 @@
 
 @import "{{ site.theme }}";
 
-h1 {
+#a-title {
     font-family: 'Membra';
     color: red;
-    height: 50px;
-    white-space: nowrap;
-    overflow: hidden; 
-    font-size: 250%;
-    position: relative;
-    margin-top: -20px;
 }
