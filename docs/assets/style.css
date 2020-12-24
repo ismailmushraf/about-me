@@ -11,3 +11,19 @@
     font-family: "consolas";
     color: #4AF626;
 }
+
+#social-icons {
+    position: fixed;
+    /*text-align: center;*/
+    top: 40%;
+    right: 2%;
+}
+
+.si {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.si a:hover {
+    color: rgb(151, 33, 33);
+}
