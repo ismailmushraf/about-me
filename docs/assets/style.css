@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'HACKED';
-    src: url('../fonts/HACKED.woff2') format('woff2'),
-        url('../fonts/HACKED.woff') format('woff');
+    src: url('../assets/fonts/HACKED.woff2') format('woff2'),
+        url('../assets/fonts/HACKED.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
