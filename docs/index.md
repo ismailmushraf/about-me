@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Hello
+layout: page
 subtitle: My name is Pudhina
 sitemap:
   priority: 0.9

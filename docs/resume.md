@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Résumé
+layout: page
 subtitle: An awesome person
 ---
 

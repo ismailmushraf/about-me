@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Blog
+layout: page
 subtitle: Select ramblings of Pudhina
 ---
 
