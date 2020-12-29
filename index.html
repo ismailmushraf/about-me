@@ -3,13 +3,12 @@
         <title>About Me</title>
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <script src="./js/main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
-    <body id="my-body" onload="changeColor()">
+    <body id="my-body" class="container-fluid" onload="changeColor()">
         <header>
             <div id="heading">
-                <h1 id="name" class="line-1 anim-typewriter">Ismail Musharaf<div id="border"></div></h1>
+                <h1 id="name">Ismail Musharaf<div id="border"></div></h1>
             </div>
             <h2 id="desc">I'm a Tech Evangelist, I Love AI, Deep Learning, Maths, <br/>
                 Competitive Programming, Web Dev and Much More. Also I love Teaching!!!</h2>
@@ -22,28 +21,36 @@
                 <span class="slider round"></span>
             </label>
         </div>
-
         <main id="me-main">
-            <h6 class="cmd-line">@skills $>&nbsp;</h6> <h6 class="input cmd-line">Deep Learning, Machine Learning</h6>
-            <h6 class="cmd-line">@skills $>&nbsp;</h6> <h6 class="input cmd-line">Web Development, APIs, GitHub</h6>
-            <h6 class="cmd-line">@skills $>&nbsp;</h6> <h6 class="input cmd-line">C, C++, Java, Python</h6>
-            <h6 class="cmd-line">@skills $>&nbsp;</h6> <h6 class="input cmd-line">Data Science</h6>
-            <h6 class="cmd-line">@skills $>&nbsp;</h6> <h6 class="input cmd-line">Problem Solving</h6>
-            <h6 class="cmd-line">@skills $>&nbsp;</h6> <h6 class="input cmd-line">Inter Peronal Communication</h6>
+            <div>
+                <p class="input cmd-line"><span class="user-name">I'm </span><span class="typed" data-typed-items="Competitive Programmer, Web Developer, AI Explorer, Blogger, Avid Learner"></span></p>
+            </div>
+            <h6 class="cmd-line">@I know $>&nbsp;</h6> <h6 class="input cmd-line">C, C++, Java, Python</h6>
+            <h6 class="cmd-line">@I like $>&nbsp;</h6> <h6 class="input cmd-line">Math, Probability, Problem Solving</h6>
+            <h6 class="cmd-line">@I like $>&nbsp;</h6> <h6 class="input cmd-line">Interacting, Communicating</h6>
+
+
+        <div id="social-icons">
+            <div class="si"><a target="_blank" href="https://twitter.com/ismailmushraf"><i class="fab fa-twitter"></i></a></div>
+            <div class="si"><a target="_blank" href="https://www.linkedin.com/in/ismailmushraf/"><i class="fab fa-linkedin-in"></i></a></div>
+            <div class="si"><a target="_blank" href="https://github.com/ismailmushraf/"><i class="fab fa-github"></i></a></div>
+            <!-- <div id="mail" class="si"><i class="fas fa-paper-plane"></i></div> -->
+        </div>
+
+        <script src="./js/formbutton-v1.0.0.min.js" defer></script>
+
         </main>
 
-        <script>
-            // Persist all the Checked Box States 
-            $(function(){
-                var test = localStorage.input === 'true'? true: false;
-                $('input').prop('checked', test || false);
-            });
+        <!-- <footer class="footer">
+            <div class="container">
+                <p>Created with ❤ by Me</p>
+            </div>
+        </footer> -->
 
-            $('input').on('change', function() {
-                localStorage.input = $(this).is(':checked');
-                console.log($(this).is(':checked'));
-            });
-        </script>
-    
+        <div id="preloader"></div>
+        <script src="https://kit.fontawesome.com/3e7257d8c1.js" crossorigin="anonymous"></script>
+        <script src="./jquery/jquery.min.js"></script>
+        <script src="./typed.js/typed.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
